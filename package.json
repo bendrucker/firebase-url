@@ -1,6 +1,6 @@
 {
   "name": "firebase-url",
-  "main": "./src",
+  "main": "./release",
   "version": "1.0.0",
   "description": "Parse and format Firebase URLs",
   "license": "MIT",
