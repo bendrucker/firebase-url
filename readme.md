@@ -13,9 +13,9 @@ $ npm install --save firebase-url
 ## Usage
 
 ```js
-var firebaseUrl = require('firebase-url');
-
-firebaseUrl.parse('https://your-endpoint.firebaseio.com/foo/bar');
+var firebaseUrl = require('firebase-url')
+// inverses
+firebaseUrl.parse('https://your-endpoint.firebaseio.com/foo/bar')
 firebaseUrl.format({
   endpoint: 'https://your-endpoint.firebaseio.com',
   path: '/foo/bar'
@@ -24,30 +24,30 @@ firebaseUrl.format({
 
 ## API
 
-### `parse(url)` -> `urlObject`
+#### `parse(uri)` -> `uriObject`
 
 Parses a URL, returning a parsed URL object with the properties:
 
 * `endpoint` (`string`)
 * `path` (`string`)
 * `isRoot` (`boolean`)
-* `url` (`string`) normalized `url`
+* `uri` (`string`) normalized `uri`
 
-#### url
+##### uri
 
 *Required*  
 Type: `string`
 
-A Firebase URL, either an endpoint or an endpoint plus a path.
+A Firebase URL, either an endpoint alone or an endpoint plus a path.
 
-### `format(urlObject)` -> `string`
+#### `format(urlObject)` -> `string`
 
-##### urlObject
+##### uriObject
 
-*Required*
-Type: `object`  
+*Required*  
+Type: `object`
 
-Formats a `urlObject` back into a `url` string. The `urlObject` must have `endpoint` and `path` properties. All others are ignored.
+Formats a `uriObject` back into a `uri` string. The `uriObject` must have `endpoint` and `path` properties. All others are ignored.
 
 
 ## License
