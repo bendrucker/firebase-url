@@ -1,4 +1,4 @@
-# firebase-url [![Build Status](https://travis-ci.org/bendrucker/firebase-url.svg?branch=master)](https://travis-ci.org/bendrucker/firebase-url)
+# firebase-url [![Build Status](https://travis-ci.org/bendrucker/firebase-url.svg?branch=master)](https://travis-ci.org/bendrucker/firebase-url) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/firebase-url.svg)](https://greenkeeper.io/)
 
 > Parse and format Firebase URLs
 
